@@ -1,0 +1,48 @@
+body {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+#buttons {
+    display: flex; 
+    justify-content: center;
+
+    margin-top: 20px; 
+}
+
+button {
+    margin: 0 20px;
+}
+
+#gridcontainer {
+    display: flex;
+    justify-content: center;
+    
+    margin: 50px auto;
+}
+
+#container {
+    background-color: #ef5350;
+    padding: 50px;
+    border-radius: 2%;
+}
+
+#header {
+    display: flex; 
+    justify-content: center; 
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(16, 30px);
+    grid-template-columns: repeat(16, 30px);
+    grid-gap: 1px; 
+}
+
+
+.gridbox {
+    background-color: lightgrey; 
+    /* border: 1px solid black; */
+    margin: 1px; 
+}
+
